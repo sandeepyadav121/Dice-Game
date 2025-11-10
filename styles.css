@@ -1,0 +1,53 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
+#but {
+  display: flex;
+  margin-top: 5%;
+  color:rgb(10, 61, 228);
+  justify-content: center; 
+  align-items: center;  
+  flex-direction: column;  
+  padding: 15px 40px;      /* bigger button */
+  font-size: 1.5rem;       /* bigger text */
+  border-radius: 25px;     /* smoother corners */
+  cursor: pointer;    
+}
